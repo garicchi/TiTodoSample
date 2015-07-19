@@ -1,0 +1,239 @@
+
+2015-07-19 21:21:57
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.4
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 0.12.5
+  npm Version                 = 2.11.2
+
+Titanium CLI
+  CLI Version                 = 4.0.1
+
+Titanium SDK
+  SDK Version                 = 4.0.0.GA
+  SDK Path                    = /Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/garicchi/.appcelerator/install/4.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build -p ios --plugin-paths /Users/garicchi/.appcelerator/install/4.0.2/package/node_modules --config-file /var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T/build-1437308512719.json --log-level info --no-banner
+
+[INFO]   No device family specified, defaulting to universal
+[DEBUG]  Detecting modules in /Users/garicchi/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/garicchi/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: facebook 3.0.3 @ /Users/garicchi/Library/Application Support/Titanium/modules/android/facebook/3.0.3
+[DEBUG]  Detected android module: facebook 4.0.3 @ /Users/garicchi/Library/Application Support/Titanium/modules/android/facebook/4.0.3
+[DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ /Users/garicchi/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.7
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/garicchi/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.map 2.2.3 @ /Users/garicchi/Library/Application Support/Titanium/modules/android/ti.map/2.2.3
+[DEBUG]  Detected android module: ti.map 2.3.0 @ /Users/garicchi/Library/Application Support/Titanium/modules/android/ti.map/2.3.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ /Users/garicchi/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.7
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.8 @ /Users/garicchi/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.8
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.0 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.0
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: facebook 3.2.0 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/facebook/3.2.0
+[DEBUG]  Detected iphone module: facebook 4.0.3 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/facebook/4.0.3
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.2.0 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.0
+[DEBUG]  Detected iphone module: ti.map 2.2.2 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.2
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/garicchi/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.8 platform=commonjs deploy-type=development path=/Users/garicchi/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.8
+[DEBUG]  Detecting plugins in /Users/garicchi/Projects/Work/TiTodoSample/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/garicchi/Projects/Work/TiTodoSample/plugins/ti.alloy
+[DEBUG]  Detecting plugins in /Users/garicchi/Library/Application Support/Titanium/plugins
+[DEBUG]  Detected plugin: com.appcelerator.test @ /Users/garicchi/Library/Application Support/Titanium/plugins/com.appcelerator.test
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[DEBUG]  Titanium SDK iOS directory: /Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 8.4
+[INFO]   Building for iOS Simulator: iPhone 4s
+[DEBUG]  UDID: A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 8.4
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator8.4
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.0
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Initiating prepare phase
+[INFO]   Found Alloy app in /Users/garicchi/Projects/Work/TiTodoSample/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/garicchi/.appcelerator/install/4.0.2/package/node_modules/appc-cli-titanium/node_modules/.bin/alloy compile /Users/garicchi/Projects/Work/TiTodoSample/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.6.2 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = universal
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/garicchi/Projects/Work/TiTodoSample
+[DEBUG]  app path = /Users/garicchi/Projects/Work/TiTodoSample/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]    [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]    "dependencies": {},
+[DEBUG]    "sourcemap": true,
+[DEBUG]    "autoStyle": false,
+[DEBUG]    "adapters": [
+[DEBUG]      "localStorage",
+[DEBUG]      "properties",
+[DEBUG]      "sql"
+[DEBUG]    ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/garicchi/.appcelerator/install/4.0.2/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  Copying SRC_DIR/alloy.js --> Resources/iphone/alloy.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/garicchi/.appcelerator/install/4.0.2/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/garicchi/Projects/Work/TiTodoSample/app/assets
+[TRACE]  
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [index.xml] view processing...
+[INFO]     style:      "index.tss"
+[INFO]     view:       "index.xml"
+[INFO]     controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - iphone/alloy.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]    processing "builtins" module...
+[TRACE]    processing "optimizer" module...
+[TRACE]    processing "compress" module...
+[TRACE]   
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [1.00312s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 1.00312s
+[INFO]   Alloy compiler completed successfully
+[DEBUG]  Setting Info.plist CFBundleVersion to 1.0
+[DEBUG]  Setting Info.plist CFBundleShortVersionString to 1.0
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon.png
+[INFO]   Initiating Xcode pre-compile phase
+[DEBUG]  Ignoring /Users/garicchi/Projects/Work/TiTodoSample/Resources/android
+[DEBUG]  Ignoring /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone
+[DEBUG]  Ignoring /Users/garicchi/Projects/Work/TiTodoSample/Resources/mobileweb
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default-568h@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default-568h@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default-667h@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default-667h@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default-Landscape-736h@3x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default-Landscape-736h@3x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default-Landscape.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default-Landscape.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default-Landscape@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default-Landscape@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default-Portrait-736h@3x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default-Portrait-736h@3x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default-Portrait.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default-Portrait.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default-Portrait@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default-Portrait@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/Default@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/Default@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon-60.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon-60.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon-60@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon-60@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon-60@3x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon-60@3x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon-72.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon-72.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon-72@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon-72@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon-Small-50.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon-Small-50.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon-Small.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon-Small.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon-Small@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon-Small@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/appicon@2x.png => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/appicon@2x.png
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/iTunesArtwork => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/iTunesArtwork
+[DEBUG]  Copying /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/iTunesArtwork@2x => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/iTunesArtwork@2x
+[INFO]   Processing JavaScript files
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/CFG.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/CFG.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/app.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/app.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/backbone.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/backbone.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/constants.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/constants.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/controllers/BaseController.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/controllers/BaseController.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/controllers/index.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/controllers/index.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/styles/index.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/styles/index.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/sync/localStorage.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/sync/localStorage.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/sync/properties.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/sync/properties.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/sync/sql.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/sync/sql.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/underscore.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/underscore.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/widget.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/widget.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy.js
+[DEBUG]  Symlinking /Users/garicchi/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.8/ti.cloud.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/ti.cloud.js
+[INFO]   Processing Titanium namespace resources
+[DEBUG]  Copying /Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/iphone/modules/ui/images => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/modules/ui/images
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 2s 330ms
+[INFO]   Launching iOS Simulator
+[DEBUG]  [ioslib] Removing old log file: /Users/garicchi/Library/Developer/CoreSimulator/Devices/A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B/data/Containers/Data/Application/5CEACA64-3990-40BB-8677-FE8BE83E2A50/Documents/83f16de3-14fd-4e62-9bbb-c05bd1a1e5c6.log
+[DEBUG]  [ioslib] Executing: /Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/node_modules/ioslib/lib/ios-sim "launch" "/Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app" "--verbose" "--xcode-dir" "/Applications/Xcode.app/Contents/Developer" "--udid" "A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B" "--timeout" "180"
+[DEBUG]  [ioslib] Executing: osascript "/Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/node_modules/ioslib/lib/iphone_sim_activate.scpt" "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7fa6d1517060> specified by app path /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7fa6d1718a30> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T//ios-sim-stderr-pipe-1437308519'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T//ios-sim-stdout-pipe-1437308519'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] using device family iphone
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing C937A8E6-3BC3-4AF5-95A5-1F5CD1F01F9B == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 4A950580-7390-4EBD-9CCC-7C744FC3F559 == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 5AF1ACD7-4151-4CA0-A4E3-9A0669E30E69 == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 9CC19785-05DB-4857-B48C-E46F1D4917F8 == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 2E36C363-AC09-4C73-8835-3EA76B1494E3 == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing D607B5B7-444A-4A1C-B822-D9B6BD313574 == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 297A5867-E1C0-4A86-8B33-0A77E5DDE67E == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 7F3C3EBE-3896-44A0-82EF-82251DB719D9 == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 9F566199-A909-4815-B1B8-52DD2403CDCF == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing F42C733A-DE26-4194-97E8-03F8E48D40BC == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] set device to : iPhone 4s
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Session started
+[DEBUG]  [ioslib] Found application log file: /Users/garicchi/Library/Developer/CoreSimulator/Devices/A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B/data/Containers/Data/Application/648FB426-6141-47C0-A36F-35B82BB02DD8/Documents/83f16de3-14fd-4e62-9bbb-c05bd1a1e5c6.log
+[INFO]   Project built successfully in 13s 75ms
