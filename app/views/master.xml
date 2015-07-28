@@ -1,0 +1,24 @@
+<Alloy>
+	<Window>
+		<Button title="Go Detail" onClick="goDetail" />
+		<ListView>
+			<SearchBar barColor="#000" />
+
+      <!-- Sets ListView's headerView property -->
+      <HeaderView>
+          <View backgroundColor="#DDD" height="Ti.UI.SIZE">
+              <Label>Header View</Label>
+          </View>>
+      </HeaderView>
+			<ListSection>
+          <ListItem title="Number 1"></ListItem>
+          <ListItem title="Number 2"></ListItem>
+      </ListSection>
+      <PullView>
+          <View backgroundColor="red" height="50">
+              <Label>Release to reload</Label>
+          </View>
+      </PullView>
+		</ListView>
+	</Window>
+</Alloy>

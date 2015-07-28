@@ -8,9 +8,6 @@ function __processArg(obj, key) {
 }
 
 function Controller() {
-    function doClick() {
-        alert($.label.text);
-    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
     this.args = arguments[0] || {};
@@ -27,28 +24,23 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    var __defers = {};
-    $.__views.index = Ti.UI.createWindow({
-        backgroundColor: "white",
-        id: "index"
+    $.__views.master = Alloy.createController("master", {
+        id: "master"
     });
-    $.__views.index && $.addTopLevelView($.__views.index);
-    $.__views.label = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "#000",
-        font: {
-            fontSize: 12
-        },
-        text: "Hello, World",
-        id: "label"
+    $.__views.navWindow = Ti.UI.iOS.createNavigationWindow({
+        window: $.__views.master.getViewEx({
+            recurse: true
+        }),
+        id: "navWindow"
     });
-    $.__views.index.add($.__views.label);
-    doClick ? $.__views.label.addEventListener("click", doClick) : __defers["$.__views.label!click!doClick"] = true;
+    $.__views.navWindow && $.addTopLevelView($.__views.navWindow);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    $.index.open();
-    __defers["$.__views.label!click!doClick"] && $.__views.label.addEventListener("click", doClick);
+    $.master.on("detail", function() {
+        var detailWin = Alloy.createController("detail").getView();
+        $.navWindow.openWindow(detailWin);
+    });
+    $.navWindow.open();
     _.extend($, exports);
 }
 

@@ -1,5 +1,5 @@
 
-2015-07-19 21:21:57
+2015-07-24 18:50:45
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/garicchi/.appcelerator/install/4.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build -p ios --plugin-paths /Users/garicchi/.appcelerator/install/4.0.2/package/node_modules --config-file /var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T/build-1437308512719.json --log-level info --no-banner
+  /usr/local/bin/node /Users/garicchi/.appcelerator/install/4.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build -p ios -T simulator --plugin-paths /Users/garicchi/.appcelerator/install/4.0.2/package/node_modules --config-file /var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T/build-1437731440158.json --log-level info --no-banner
 
 [INFO]   No device family specified, defaulting to universal
 [DEBUG]  Detecting modules in /Users/garicchi/Library/Application Support/Titanium/modules
@@ -128,9 +128,19 @@ Command
 [DEBUG]  
 [INFO]   ----- MVC GENERATION -----
 [INFO]   [global style] loading from cache...
+[INFO]   [detail.xml] view processing...
+[INFO]     style:      "detail.tss"
+[INFO]     view:       "detail.xml"
+[INFO]     controller: "detail.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/controllers/detail.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/detail.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/detail.js"
 [INFO]   [index.xml] view processing...
 [INFO]     style:      "index.tss"
-[INFO]     view:       "index.xml"
+[INFO]     view:       "ios/index.xml"
 [INFO]     controller: "index.js"
 [TRACE]  - Processing "builtins" module...
 [TRACE]  - Processing "optimizer" module...
@@ -138,6 +148,16 @@ Command
 [INFO]     created:    "Resources/iphone/alloy/controllers/index.js"
 [DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
 [INFO]     created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [master.xml] view processing...
+[INFO]     style:      "master.tss"
+[INFO]     view:       "master.xml"
+[INFO]     controller: "master.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]     created:    "Resources/iphone/alloy/controllers/master.js"
+[DEBUG]    map:        "build/map/Resources/iphone/alloy/controllers/master.js.map"
+[INFO]     created:     "Resources/iphone/alloy/styles/master.js"
 [INFO]   
 [INFO]   [app.js] using cached app.js...
 [INFO]   
@@ -161,9 +181,9 @@ Command
 [TRACE]   
 [TRACE]  Benchmarking
 [TRACE]  ------------
-[TRACE]  [1.00312s] TOTAL
+[TRACE]  [1.17419s] TOTAL
 [INFO]   
-[INFO]   Alloy compiled in 1.00312s
+[INFO]   Alloy compiled in 1.17419s
 [INFO]   Alloy compiler completed successfully
 [DEBUG]  Setting Info.plist CFBundleVersion to 1.0
 [DEBUG]  Setting Info.plist CFBundleShortVersionString to 1.0
@@ -200,8 +220,12 @@ Command
 [DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/backbone.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/backbone.js
 [DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/constants.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/constants.js
 [DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/controllers/BaseController.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/controllers/BaseController.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/controllers/detail.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/controllers/detail.js
 [DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/controllers/index.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/controllers/index.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/controllers/master.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/controllers/master.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/styles/detail.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/styles/detail.js
 [DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/styles/index.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/styles/index.js
+[DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/styles/master.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/styles/master.js
 [DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/sync/localStorage.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/sync/localStorage.js
 [DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/sync/properties.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/sync/properties.js
 [DEBUG]  Symlinking /Users/garicchi/Projects/Work/TiTodoSample/Resources/iphone/alloy/sync/sql.js => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/alloy/sync/sql.js
@@ -212,15 +236,15 @@ Command
 [INFO]   Processing Titanium namespace resources
 [DEBUG]  Copying /Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/iphone/modules/ui/images => /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app/modules/ui/images
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 2s 330ms
+[INFO]   Finished building the application in 2s 617ms
 [INFO]   Launching iOS Simulator
-[DEBUG]  [ioslib] Removing old log file: /Users/garicchi/Library/Developer/CoreSimulator/Devices/A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B/data/Containers/Data/Application/5CEACA64-3990-40BB-8677-FE8BE83E2A50/Documents/83f16de3-14fd-4e62-9bbb-c05bd1a1e5c6.log
+[DEBUG]  [ioslib] Removing old log file: /Users/garicchi/Library/Developer/CoreSimulator/Devices/A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B/data/Containers/Data/Application/C3427E32-B235-498E-A077-CA5E21CCC14D/Documents/83f16de3-14fd-4e62-9bbb-c05bd1a1e5c6.log
 [DEBUG]  [ioslib] Executing: /Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/node_modules/ioslib/lib/ios-sim "launch" "/Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app" "--verbose" "--xcode-dir" "/Applications/Xcode.app/Contents/Developer" "--udid" "A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B" "--timeout" "180"
 [DEBUG]  [ioslib] Executing: osascript "/Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/node_modules/ioslib/lib/iphone_sim_activate.scpt" "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7fa6d1517060> specified by app path /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7fa6d1718a30> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T//ios-sim-stderr-pipe-1437308519'
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T//ios-sim-stdout-pipe-1437308519'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7fca28d1b9b0> specified by app path /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/build/Debug-iphonesimulator/TiTodoSample.app
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7fca28d1c0d0> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T//ios-sim-stderr-pipe-1437731448'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/52/wb6dt1tj1sj3v0cxq17tsss80000gn/T//ios-sim-stdout-pipe-1437731448'
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] using device family iphone
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing C937A8E6-3BC3-4AF5-95A5-1F5CD1F01F9B == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 4A950580-7390-4EBD-9CCC-7C744FC3F559 == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
@@ -235,5 +259,5 @@ Command
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B == A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] set device to : iPhone 4s
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Session started
-[DEBUG]  [ioslib] Found application log file: /Users/garicchi/Library/Developer/CoreSimulator/Devices/A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B/data/Containers/Data/Application/648FB426-6141-47C0-A36F-35B82BB02DD8/Documents/83f16de3-14fd-4e62-9bbb-c05bd1a1e5c6.log
-[INFO]   Project built successfully in 13s 75ms
+[DEBUG]  [ioslib] Found application log file: /Users/garicchi/Library/Developer/CoreSimulator/Devices/A4CEEC1D-8DC4-4908-A73D-F250C31CDE1B/data/Containers/Data/Application/57858F57-740A-4EB3-A682-6512DD27CA9C/Documents/83f16de3-14fd-4e62-9bbb-c05bd1a1e5c6.log
+[INFO]   Project built successfully in 17s 764ms
