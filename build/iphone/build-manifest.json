@@ -3,11 +3,11 @@
 	"deployType": "development",
 	"iosSdkVersion": "8.4",
 	"deviceFamily": "universal",
-	"iosSdkPath": "/Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.0.0.GA/iphone",
+	"iosSdkPath": "/Users/garicchi/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/iphone",
 	"tiCoreHash": "5710cda7b179a3c8391cc94011e308de",
 	"modulesHash": "7fb655db1d51a26b74a2778ab4a02a6b",
 	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
-	"gitHash": "9239ff9",
+	"gitHash": "d57aa7d",
 	"name": "TiTodoSample",
 	"id": "com.garicchi.titodosample",
 	"analytics": true,
@@ -16,9 +16,9 @@
 	"version": "1.0",
 	"description": "",
 	"copyright": "not specified",
-	"guid": "83f16de3-14fd-4e62-9bbb-c05bd1a1e5c6",
+	"guid": "ad6388d6-e25b-461b-9ccc-c05bd1a1e5c6",
 	"skipJSMinification": false,
 	"forceCopy": false,
 	"forceCopyAll": false,
-	"encryptJS": false
+	"encryptJS": true
 }

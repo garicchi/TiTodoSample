@@ -12,7 +12,7 @@
   <fullscreen>false</fullscreen>
   <navbar-hidden>false</navbar-hidden>
   <analytics>true</analytics>
-  <guid>83f16de3-14fd-4e62-9bbb-c05bd1a1e5c6</guid>
+  <guid>ad6388d6-e25b-461b-9ccc-c05bd1a1e5c6</guid>
   <property name="ti.ui.defaultunit" type="string">dp</property>
   <ios>
     <plist>
@@ -58,26 +58,27 @@
     <target device="ipad">true</target>
     <target device="iphone">true</target>
     <target device="mobileweb">true</target>
+    <target device="windows">true</target>
   </deployment-targets>
-  <sdk-version>4.0.0.GA</sdk-version>
+  <sdk-version>4.1.0.GA</sdk-version>
   <plugins>
     <plugin version="1.0">ti.alloy</plugin>
   </plugins>
-  <property name="appc-app-id" type="string">55ab92b9e05a890d32c76875</property>
+  <property name="appc-app-id" type="string">55b9de584ef3cf3908b62cf1</property>
   <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
   <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
-  <property name="acs-oauth-secret-development" type="string">xZV27Gfwuj37Bk0q1PCE7vC0XsGlB2zP</property>
-  <property name="acs-oauth-key-development" type="string">NbAajA4eg7RreNCFGiIjHZypFZhEnoca</property>
-  <property name="acs-api-key-development" type="string">TgrMiHGjdMtYGO1fzOtfsNH2e8pdb89g</property>
+  <property name="acs-oauth-secret-development" type="string">r6OfXTdvibj24P4xMAhum0HJVsKww1bC</property>
+  <property name="acs-oauth-key-development" type="string">8yY1WTkQRyUKutTI0mfo0GUMxRukgFJP</property>
+  <property name="acs-api-key-development" type="string">BoiSIReWAnRJVH2J7w7fVxaeYM4SaKi1</property>
   <property name="acs-username-development" type="string">appc_app_user_dev</property>
-  <property name="acs-password-development" type="string">W5gMtKKyxN7gfGX6KM</property>
+  <property name="acs-password-development" type="string">8zJLKraaHGyvo91D1Z</property>
   <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
   <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
-  <property name="acs-oauth-secret-production" type="string">HL9Jawnrt4vNnfFJxgqAjHDR3kxpKcl5</property>
-  <property name="acs-oauth-key-production" type="string">kOg1HWrPEcpchFOfqjdyR3jacIK9yNRE</property>
-  <property name="acs-api-key-production" type="string">UUFxrnibTdR8lGQX3gN4QNADtQOUTM5u</property>
+  <property name="acs-oauth-secret-production" type="string">RSrYxqtfe6l6onEkzQq46K1EIipbX8kP</property>
+  <property name="acs-oauth-key-production" type="string">IIYxOnZRlFP3iGg38OB5wudmhGZCNDIi</property>
+  <property name="acs-api-key-production" type="string">xbPxSSecaEPZE6TuOiBTooPq5vnFIdAT</property>
   <property name="acs-username-production" type="string">appc_app_user</property>
-  <property name="acs-password-production" type="string">G4Kl7vkKub6zjFWyzY</property>
+  <property name="acs-password-production" type="string">FNSDunTATZqPnvwv6u</property>
   <property name="appc-org-id" type="string">100038822</property>
   <property name="appc-creator-user-id" type="string">ddf29fab-f838-4a39-94e8-d9720a09d111</property>
 </ti:app>

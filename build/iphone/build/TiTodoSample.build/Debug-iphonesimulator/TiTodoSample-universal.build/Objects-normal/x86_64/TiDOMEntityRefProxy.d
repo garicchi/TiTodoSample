@@ -1,13 +1,11 @@
 dependencies: \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiDOMEntityRefProxy.m \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiDOMEntityRefProxy.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiDOMNodeProxy.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiProxy.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiBase.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiThreading.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiPublicAPI.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiEvaluator.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/KrollContext.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/TiDOMEntityRefProxy.m \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/TiDOMEntityRefProxy.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/TiDOMNodeProxy.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/TiProxy.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/TiEvaluator.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/KrollContext.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/TiToJS.h \
   headers/JavaScriptCore/TiCore.h headers/JavaScriptCore/Ti.h \
   headers/JavaScriptCore/TiBase.h headers/JavaScriptCore/TiContextRef.h \
   headers/JavaScriptCore/TiObjectRef.h \
@@ -15,10 +13,10 @@ dependencies: \
   headers/JavaScriptCore/WebKitAvailability.h \
   headers/JavaScriptCore/TiStringRef.h \
   headers/JavaScriptCore/TiStringRefCF.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/KrollCallback.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/KrollObject.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiBindingRunLoop.h \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/GDataXMLNode.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/KrollCallback.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/KrollObject.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/TiBindingRunLoop.h \
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/GDataXMLNode.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.4.sdk/usr/include/libxml2/libxml/tree.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.4.sdk/usr/include/libxml2/libxml/xmlversion.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.4.sdk/usr/include/libxml2/libxml/xmlexports.h \

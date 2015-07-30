@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/garicchi/Projects/Work/TiTodoSample/build/iphone/Classes/TiUICanvasViewProxy.m
+  /Users/garicchi/Projects/Repository/TiTodoSample/build/iphone/Classes/TiUICanvasViewProxy.m
